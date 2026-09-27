@@ -1,0 +1,90 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="180dp"
+    android:viewportWidth="360"
+    android:viewportHeight="180">
+
+    <!-- Cyber Background with Grid Gradient -->
+    <path
+        android:fillColor="#090E17"
+        android:pathData="M0,0h360v180h-360z" />
+
+    <!-- Cyber Matrix Grid -->
+    <path
+        android:strokeColor="#152438"
+        android:strokeWidth="1"
+        android:pathData="M0,30L360,30 M0,60L360,60 M0,90L360,90 M0,120L360,120 M0,150L360,150 M40,0L40,180 M80,0L80,180 M120,0L120,180 M160,0L160,180 M200,0L200,180 M240,0L240,180 M280,0L280,180 M320,0L320,180" />
+
+    <!-- Glowing Tech HUD Bracket Left -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:pathData="M30,30 L15,30 L15,150 L30,150" />
+
+    <!-- Glowing Tech HUD Bracket Right -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:pathData="M330,30 L345,30 L345,150 L330,150" />
+
+    <!-- Central Beast Panther Hologram Mask (Stylized Low-poly Cyber Panther) -->
+    <!-- Forehead & Crest -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:fillColor="#2200E5FF"
+        android:pathData="M180,30 L195,45 L180,60 L165,45 Z" />
+
+    <!-- Ears -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:fillColor="#1500E5FF"
+        android:pathData="M165,45 L145,20 L155,55 Z" />
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:fillColor="#1500E5FF"
+        android:pathData="M195,45 L215,20 L205,55 Z" />
+
+    <!-- Cheeks & Jaw Line -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:fillColor="#1000E5FF"
+        android:pathData="M155,55 L140,85 L160,115 L180,135 L200,115 L220,85 L205,55 Z" />
+
+    <!-- Glowing Eyes (Cyan/Neon White) -->
+    <path
+        android:fillColor="#00FFFF"
+        android:pathData="M155,75 L170,72 L165,80 Z" />
+    <path
+        android:fillColor="#00FFFF"
+        android:pathData="M205,75 L190,72 L195,80 Z" />
+
+    <!-- Snout & Whisker Circuitry -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:pathData="M180,95 L175,108 L185,108 Z" />
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.5"
+        android:pathData="M175,108 L150,112 M175,110 L145,120 M185,108 L210,112 M185,110 L215,120" />
+
+    <!-- Neural Energy Circuit Trail Lines -->
+    <path
+        android:strokeColor="#0070F3"
+        android:strokeWidth="2"
+        android:pathData="M40,90 L110,90 L135,75 M250,90 L320,90 L225,75" />
+    <path
+        android:strokeColor="#FF007F"
+        android:strokeWidth="1.5"
+        android:pathData="M60,120 L120,120 L150,135 M300,120 L240,120 L210,135" />
+
+    <!-- Holographic Dots -->
+    <path android:fillColor="#00E5FF" android:pathData="M40,90a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" />
+    <path android:fillColor="#00E5FF" android:pathData="M320,90a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" />
+    <path android:fillColor="#FF007F" android:pathData="M60,120a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" />
+    <path android:fillColor="#FF007F" android:pathData="M300,120a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" />
+</vector>

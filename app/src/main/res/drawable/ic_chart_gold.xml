@@ -1,0 +1,94 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="200dp"
+    android:viewportWidth="300"
+    android:viewportHeight="200">
+
+    <!-- Dark Chart Background -->
+    <path
+        android:fillColor="#0D1117"
+        android:pathData="M0,0h300v200h-300z" />
+
+    <!-- Grid lines -->
+    <path
+        android:strokeColor="#1F2A38"
+        android:strokeWidth="1"
+        android:pathData="M0,40L300,40 M0,80L300,80 M0,120L300,120 M0,160L300,160 M60,0L60,200 M120,0L120,200 M180,0L180,200 M240,0L240,200" />
+
+    <!-- Moving Average Lines -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:pathData="M10,60 C50,55 90,85 130,95 C170,105 210,140 250,150 C270,155 290,145 300,140" />
+
+    <path
+        android:strokeColor="#FF007F"
+        android:strokeWidth="1.5"
+        android:pathData="M10,80 C50,75 90,95 130,110 C170,125 210,155 250,165 C270,170 290,160 300,155" />
+
+    <!-- Candlesticks (Red / Blue / White) -->
+    <!-- Candle 1: Blue Bullish -->
+    <path android:strokeColor="#00E5FF" android:strokeWidth="1.5" android:pathData="M30,45L30,75" />
+    <path android:fillColor="#00E5FF" android:pathData="M26,50h8v20h-8z" />
+
+    <!-- Candle 2: Red Bearish -->
+    <path android:strokeColor="#FF3366" android:strokeWidth="1.5" android:pathData="M50,48L50,85" />
+    <path android:fillColor="#FF3366" android:pathData="M46,55h8v24h-8z" />
+
+    <!-- Candle 3: Small Blue -->
+    <path android:strokeColor="#00E5FF" android:strokeWidth="1.5" android:pathData="M70,68L70,98" />
+    <path android:fillColor="#00E5FF" android:pathData="M66,74h8v16h-8z" />
+
+    <!-- Candle 4: Long Red Drop -->
+    <path android:strokeColor="#FF3366" android:strokeWidth="1.5" android:pathData="M90,75L90,135" />
+    <path android:fillColor="#FF3366" android:pathData="M86,82h8v45h-8z" />
+
+    <!-- Candle 5: Red Continue -->
+    <path android:strokeColor="#FF3366" android:strokeWidth="1.5" android:pathData="M110,118L110,155" />
+    <path android:fillColor="#FF3366" android:pathData="M106,122h8v28h-8z" />
+
+    <!-- Candle 6: Blue Rejection Wick -->
+    <path android:strokeColor="#00E5FF" android:strokeWidth="1.5" android:pathData="M130,130L130,178" />
+    <path android:fillColor="#00E5FF" android:pathData="M126,140h8v18h-8z" />
+
+    <!-- Candle 7: Red -->
+    <path android:strokeColor="#FF3366" android:strokeWidth="1.5" android:pathData="M150,138L150,170" />
+    <path android:fillColor="#FF3366" android:pathData="M146,144h8v20h-8z" />
+
+    <!-- Candle 8: Consolidation -->
+    <path android:strokeColor="#00E5FF" android:strokeWidth="1.5" android:pathData="M170,140L170,165" />
+    <path android:fillColor="#00E5FF" android:pathData="M166,145h8v12h-8z" />
+
+    <!-- Candle 9: Long Liquidity Sweep Wick (Hammer) -->
+    <path android:strokeColor="#00E5FF" android:strokeWidth="1.8" android:pathData="M190,135L190,190" />
+    <path android:fillColor="#00E5FF" android:pathData="M186,138h8v14h-8z" />
+
+    <!-- Candle 10: Big Green Institutional Expansion -->
+    <path android:strokeColor="#00E676" android:strokeWidth="2" android:pathData="M210,110L210,150" />
+    <path android:fillColor="#00E676" android:pathData="M205,115h10v32h-10z" />
+
+    <!-- Candle 11: Green continuation -->
+    <path android:strokeColor="#00E676" android:strokeWidth="2" android:pathData="M230,85L230,125" />
+    <path android:fillColor="#00E676" android:pathData="M225,90h10v28h-10z" />
+
+    <!-- Candle 12: Retest -->
+    <path android:strokeColor="#FF3366" android:strokeWidth="1.5" android:pathData="M250,92L250,115" />
+    <path android:fillColor="#FF3366" android:pathData="M246,95h8v12h-8z" />
+
+    <!-- Candle 13: Strong Bullish Impulse -->
+    <path android:strokeColor="#00E676" android:strokeWidth="2" android:pathData="M270,60L270,105" />
+    <path android:fillColor="#00E676" android:pathData="M265,65h10v35h-10z" />
+
+    <!-- Order Block Zone Indicator -->
+    <path
+        android:fillColor="#2200E5FF"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1"
+        android:pathData="M120,135h170v22h-170z" />
+
+    <path
+        android:fillColor="#3300E676"
+        android:strokeColor="#00E676"
+        android:strokeWidth="1.5"
+        android:pathData="M255,50h35v15h-35z" />
+</vector>

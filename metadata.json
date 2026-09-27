@@ -1,0 +1,6 @@
+{
+  "name": "The Beast",
+  "description": "The Beast dual-engine terminal: AI Exam Scanner & Simulator with Mistake Review, and MT5 EA Nexus Trading Bot with Market Scanner and Execution Bridge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
